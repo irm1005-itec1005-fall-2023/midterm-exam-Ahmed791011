@@ -1,32 +1,3 @@
-/*
- * CSS File for the solution
- * Midterm Exam
- * You got this!
- */
-
-/*
- * COLOUR PALETTE
- *
- * YOU DO NOT NEED TO USE THESE COLOURS, BUT YOU CAN IF YOU WANT TO
- *   #ede0d4
- *   #e6ccb2
- *   #ddb892
- *   #b08968
- *   #7f5539
- *   #9c6644
- *
- * https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644
- */
-
-/*
- * The width of my Product Card in the screenshot was 400px
- * You can use that width or set your own width
- */
-
-/*
- * HINT: For making image fill the container use object-fit:cover property:
- *  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
- */
 
 html {
   font-size: 1.0rem;
@@ -34,4 +5,96 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #c3b1a1 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: white;
+  border-radius: 2rem 2rem 2rem 2rem;
+  margin-top: 20rem;
+  margin-bottom: 3rem;
+}
+
+.coffee-image{
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem 2rem 0rem 0rem;
+  object-fit: cover;
+
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.hot-drinks {
+  display: flex;
+  font-size: 1rem;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  color: #b08968;
+}
+
+.Perfect-Cappuccino {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #683d24;
+  align-items: left;
+}
+
+.description {
+  display: flex;
+  font-size: 1.2rem;
+  flex-direction: column;
+  align-items: left;
+  color: #683d24;
+  margin-bottom: 1rem;
+}
+
+.price {
+  display: flex;
+  font-size: 3.5rem;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: left;
+  color: #683d24;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a2112;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.7rem;
+}
+
+
+
+
